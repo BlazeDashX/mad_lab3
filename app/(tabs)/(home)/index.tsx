@@ -1,5 +1,5 @@
 import { router } from "expo-router";
-import { FlatList, ScrollView, StyleSheet, Text, View } from "react-native";
+import { FlatList, StyleSheet, Text, View } from "react-native";
 import ArticleCard from "../../../components/article-card";
 import { Article, ARTICLES } from "../../../data/articles";
 
