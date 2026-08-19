@@ -12,7 +12,7 @@ export default function ArticleList() {
     };
 
     return (
-        <ScrollView style={styles.screen}>
+        <View style={styles.screen}>
             <FlatList
                 data={ARTICLES}
                 keyExtractor={(item) => item.id}
@@ -24,7 +24,7 @@ export default function ArticleList() {
                     </View>
                 }
             />
-        </ScrollView>
+        </View>
     );
 }
 
